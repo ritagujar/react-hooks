@@ -2,6 +2,12 @@ import React from "react";
 import { useState } from "react";
 import "../App.css";
 
+// Rules to use useState ------
+// Can't use in conditional cases like if-else
+// Can't use insite the functions and conditional rendering
+
+// Whenever the value of the State changes  the component rerenders
+
 function Usestate() {
   const [name, setName] = useState("React");
   // Use Boolean in the useState
