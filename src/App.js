@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import UseMemo from "./components/UseMemo";
+// import UseMemo from "./components/UseMemo";
 // import UseEffect from "./components/UseEffect";
 // import UseState from "./components/UseState";
-import UseRef from "./components/UseRef";
+// import UseRef from "./components/UseRef";
+import UseCallback from "./components/UseCallback";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </>
   );
 }
