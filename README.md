@@ -5,3 +5,4 @@
 3. useRef()
 4. useMemo()
 5. useCallbak()
+6. useReducer()

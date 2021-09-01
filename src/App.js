@@ -4,7 +4,8 @@ import "./App.css";
 // import UseEffect from "./components/UseEffect";
 // import UseState from "./components/UseState";
 // import UseRef from "./components/UseRef";
-import UseCallback from "./components/UseCallback";
+// import UseCallback from "./components/UseCallback";
+import UseReducer from "./components/UseReducer";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <UseReducer />
     </>
   );
 }
