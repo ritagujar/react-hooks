@@ -1,22 +1,22 @@
 import React from "react";
 import "./App.css";
-// import UseMemo from "./components/UseMemo";
+import UseState from "./components/UseState";
 // import UseEffect from "./components/UseEffect";
-// import UseState from "./components/UseState";
 // import UseRef from "./components/UseRef";
+// import UseMemo from "./components/UseMemo";
 // import UseCallback from "./components/UseCallback";
-import UseReducer from "./components/UseReducer";
+// import UseReducer from "./components/UseReducer";
 
 function App() {
   return (
-    <>
-      {/* <UseState /> */}
+    <div className="App">
+      <UseState />
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      <UseReducer />
-    </>
+      {/* <UseReducer /> */}
+    </div>
   );
 }
 

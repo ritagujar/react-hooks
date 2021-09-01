@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from "react";
-import "../App.css";
 
 /*
  1. useRef access DOM Element
@@ -41,7 +40,7 @@ function UseRef() {
       <div>My name is {name}</div>
       <div>
         <h1>Random Counter {counter}</h1>
-        {typeof prevCounterRef.current !== "undefine" && (
+        {typeof prevCounterRef.current !== "undefined" && (
           <h2>Previous Counter : {prevCounterRef.current}</h2>
         )}
         <button onClick={(e) => setCounter(Math.ceil(Math.random() * 100))}>

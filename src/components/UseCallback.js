@@ -2,13 +2,13 @@ import React, { useMemo, useState, useEffect, useCallback } from "react";
 
 /* 
     Whenever we type anything in input, app component get re-render
-    and instance of displayName function is generated.
+    and instance of displayName() function is generated.
     
-    But the problem is whenever we click on Increment and Decrement  app component gets re-render again becouse of the state of the counter changed.
+    But the problem is whenever we click on Increment and Decrement,  app component gets re-render again becouse of the state of the counter changed.
 
-    and when the app component re-render again there is a new instance of displayName is being created.
+    and when the app component re-render again there is a new instance of displayName() is being created.
 
-    so, here comes useCallback() hook so solve this problem, wrap the function into useCallback hook.
+    so, here comes useCallback() hook to solve this problem, wrap the function into useCallback hook.
 */
 
 function UseCallback() {
@@ -34,7 +34,7 @@ function UseCallback() {
 
   const displayName = useCallback(
     (greeting) => {
-      // We can also use greeting in useCallback like this
+      // We can also use greeting in useCallback,like this
       return greeting + " " + name;
     },
     [name]

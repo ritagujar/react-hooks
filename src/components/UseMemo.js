@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from "react";
-import "../App.css";
 
 /* 
     1. Optimize expensive operation

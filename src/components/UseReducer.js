@@ -2,11 +2,11 @@ import React, { useReducer, useState } from "react";
 
 /*
     useReducer is an alternative to useState hook.
-    When you have complex stae logic that involves multiple sub-values or when next state depends on previous one we can use useReducer.
+    When you have complex state logic that involves multiple sub-values or when next state depends on previous one we can use useReducer.
 */
 
 const initialState = [
-  { id: Date.now(), name: "Rita", email: "rita@gmail.com" },
+  { id: Date.now(), name: "John", email: "john@gmail.com" },
 ];
 
 function reducer(state, action) {

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "../App.css";
 
 function UseEffect() {
   const [time, setTime] = useState(new Date().toString());
@@ -10,7 +9,7 @@ function UseEffect() {
   }, []);
 
   //  If you want to call your useEffect function only once when the  component is mounted you can only pass empty array [].
-  //  If you want to call useEffect on a percular state you can pass any dependency of the state variable as a parameter.
+  //  If you want to call useEffect on a perticular state you can pass any dependency of the state variable as a parameter.
   //  Like -- [time] or [message].
 
   const showDate = () => {
